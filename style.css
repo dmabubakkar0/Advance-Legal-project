@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abril+Fatface&family=Aguafina+Script&family=Outfit:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    /* font-family: "Outfit", sans-serif; */
+  
+    list-style: none;
+    text-decoration: none;
+
+}
+ html{
+    scroll-behavior: smooth;
+ }
+
+.container{
+    padding: 0px 30px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* ==============SECTION-01=========== */
+.section-01 {
+    background-image: url(Legal-img/Frame\ 74202.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 40px;
+   border-bottom: 1px solid #2e2e3259;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+.nav-iteam {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-iteam  li a  {
+    font-size: 16px;
+    line-height:  1.6em;
+    font-weight: 400;
+    color: #686770;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+
+
+.sing-up {
+    display: flex;
+    align-items:center ;
+    gap: 14px;
+}
+
+.Loging {
+    font-size: 16px;
+    line-height:  1.6em;
+    font-weight: 400;
+    color: #686770;
+}
+
+
+.get-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 24px 12px 24px;
+    border: 1px  solid #7842E8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #7842E8;
+    font-size: 16px;
+    line-height:  1.6em;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    transition: 0.50s ease-in-out;
+
+}
+ 
+
+.get-btn:hover  {
+    background-color: #7842E8;
+    color: #FFF;
+}
+/* ===========SECTION-02==== */
+
+.section-02 {
+    background-image: url(Legal-img/Pricing\ Page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1023px;
+    padding-top: 122px;
+}
+
+.hero-heading {
+ max-width: 749px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.hero-h6 {
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 500;
+    color: #7842E8;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.hero-h1 {
+    font-size: 66px;
+ line-height: 130%;
+ font-weight: 600;
+color: #2E2E32;
+ padding-top: 10px;
+ padding-bottom: 20px;
+ font-family: "Outfit", sans-serif;
+
+}
+
+.hero-p {
+    max-width: 637px;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #919099;
+    padding-bottom: 24px;
+    font-family: "Outfit", sans-serif;
+}
+.plan {
+    margin: auto;
+    background-color: transparent;
+    width: 145px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #7842E8;
+    border-radius: 45px;
+   
+}
+
+
+.Monthly {
+    background-color: #7842E8;
+    padding: 8px 16px;
+    border-radius: 60px;
+    font-size: 12px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+
+.pricing-section {
+    display: flex;
+    gap: 30px;
+   
+padding-top: 77px;
+
+}
+
+.prceing-logo img {
+    padding-bottom: 32px;
+}
+ 
+
+     .pricing-card {
+        background-color: #FFFF;
+        padding: 32px 26px 32px 26px;
+      text-align: center;
+       
+        box-shadow: 0px 4px 32px  rgb(234,234,236);
+        align-items: center;
+        border-top: 6px solid #7842E8; 
+        border-radius: 24px;
+     
+}
+
+
+
+.priceing-plan {
+ 
+    min-height: 131px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    
+}
+
+.priceing-plan h2 {
+    font-size: 50px;
+    line-height: 130%;
+    font-weight: 600;
+    color: #2E2E32;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.priceing-plan h2 span{
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #919099;
+}
+ 
+
+.p-one {
+    font-size: 14px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #2E2E32;
+    padding-top: 8px;
+    
+    font-family: "Outfit", sans-serif;
+    max-width: 637px;
+    margin: auto;
+    text-align: center;
+}
+
+.priceing-plan h6 {
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    color: #7842E8;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.p-tow {
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: "Outfit", sans-serif;
+     
+}
+.line-img {
+    background-color:  transparent;
+    padding: 13px 11px 13px 12px;
+    border:1px solid  #F4EEFF;
+    border-radius: 50%;
+}
+
+.card-bottom a {
+    background-color:transparent;
+    padding: 12px 24px;
+    border: 1px solid #7842E8 ;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 500;
+    color: #7842E8;
+    transition: 0.50s ease-in-out;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.card-bottom a:hover{
+    background-color: #7842E8;
+    color: #FFF;
+}
+
+.card-footer {
+    padding-top: 24px;
+    padding-bottom:32px ;
+}
+
+
+/* ==================SECTION-03============== */
+
+
+ .section-03 {
+    background-image: url(Legal-img/Frame\ 74202\ \(1\).jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    min-height: 561px;
+    padding-top: 122px;
+}
+ .heading-sect-03 {
+    padding-bottom: 64px;
+    max-width: 699px;
+    margin: auto;
+    text-align: center;
+ }
+
+.sect-3_heading {
+  
+    font-size: 42px;
+    line-height: 1.2976190476190477em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32;
+
+}
+
+.sect-3_cards {
+   display: flex;
+   justify-content: center;
+   gap: 29px;
+    
+}
+
+.Paragraph-16-R {
+  
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-top: 16px;
+    max-width: 637px;
+    margin: auto;
+}
+
+ 
+
+.sect-3-card {
+    width: 263px;
+    height: 297px;
+    
+    text-align: center;
+    transition: .50s ease-in-out;
+    padding: 30px 20px;
+}
+
+.Landing__H4 {
+    font-size: 25px;
+    line-height: 1.4em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: #2E2E32;
+}
+
+.Landing_p {
+    font-size: 14px;
+    line-height: 1.5714285714285714em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: #919099;
+    padding-top: 12px;
+}
+
+.sect-3-card:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* =======TABLATE__RESPONSIVE======= */
+@media   (min-width: 768px) and (max-width: 1080px) {
+
+
+/* ===============SECTION-02======== */
+
+.section-02 {
+    background-image: url(Legal-img/Pricing\ Page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1023px;
+    padding-top: 80px;
+}
+
+
+.hero-h1 {
+    font-size: 48px;
+   
+    padding-top: 7px;
+    padding-bottom: 15px;
+    
+}
+
+.pricing-section {
+    display: flex;
+    gap: 50px;
+    padding-top: 77px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+/* SECTION===========-03 */
+ 
+.section-03 {
+  
+    padding-top: 80px;
+}
+.sect-3_cards {
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    flex-wrap: wrap;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* =======MOBILE___RESPONSIVE======= */
+@media (min-width:280px) and (max-width:767px) {
+
+/* ======SECTION-01======== */
+    
+ 
+.Logo {
+        max-width: 80px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: unset;
+        gap: 26px;
+    }
+
+    .nav-iteam {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .get-btn {
+        display: none;
+       
+       
+    }
+
+
+
+    /* ========SECTION-02====== */
+
+
+    .section-02 {
+ 
+        padding-top: 45px;
+    }
+
+
+
+    .hero-p {
+        max-width: 637px;
+        font-size: 15px;
+        line-height: 1.6em;
+        font-weight: 400;
+        color: #919099;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .pricing-section {
+        display: flex;
+        gap: 30px;
+        padding-top: 40px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .pricing-card {
+        background-color: #FFFF;
+        padding: 30px 24px 30px 24px;
+     
+       
+    }
+
+    .hero-h1 {
+        font-size: 29px;
+        line-height: 130%;
+        font-weight: 600;
+        color: #2E2E32;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .prceing-logo img {
+        padding-bottom: 20px;
+        width: 80px;
+    }
+    
+    .priceing-plan h2 {
+        font-size: 30px;
+        
+    }
+
+
+    .priceing-plan {
+        min-height: 110px;
+        text-align: center;
+    }
+
+
+    .card-footer {
+        padding-top: 18px;
+        padding-bottom: 20px;
+    }
+
+    .p-tow {
+        padding-bottom: 5px;
+        
+    }
+
+
+/* ========SECTION-03======= */
+
+.section-03 {
+  
+    padding-top: 45px;
+}
+
+
+
+
+
+.sect-3_cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading-sect-03 {
+    padding-bottom: 36px;
+ 
+}
+
+.sect-3_heading {
+    font-size: 28px;
+   
+}
+
+.Paragraph-16-R {
+    font-size: 14px;
+   
+    padding-top: 16px;
+}
+
+
+
+}
+
+ @media (min-width:120px) and (max-width:400px)
+  {
+    .sing-up {
+        display: none;
+        
+    }
+ }
