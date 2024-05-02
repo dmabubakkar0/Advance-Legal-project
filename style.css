@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
    background-size: cover;
    padding-top: 40px;
-   border-bottom: 1px solid #2e2e3259;
+   border-bottom: 1px solid  rgb(201,200,207,0.3);
     
     
 }
@@ -94,10 +94,10 @@
 /* ===========SECTION-02==== */
 
 .section-02 {
-    background-image: url(Legal-img/Pricing\ Page.jpg);
+    background-image: url( Legal-img/Frame\ 74198.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1023px;
+    min-height: 1194px;
     padding-top: 122px;
 }
 
@@ -130,6 +130,7 @@ color: #2E2E32;
 
 .hero-p {
     max-width: 637px;
+    margin: auto;
     font-size: 18px;
     line-height: 1.6em;
     font-weight: 400;
@@ -265,6 +266,7 @@ padding-top: 77px;
     color: #7842E8;
     transition: 0.50s ease-in-out;
     font-family: "Outfit", sans-serif;
+    display: inline-block;
 
 }
 
@@ -283,7 +285,7 @@ padding-top: 77px;
 
 
  .section-03 {
-    background-image: url(Legal-img/Frame\ 74202\ \(1\).jpg);
+    background-image: url(Legal-img/Frame\ 74199.jpg);
     background-repeat: no-repeat;
    background-size: cover;
     min-height: 561px;
@@ -521,7 +523,7 @@ height: 582px;
 
 
 /* =======TABLATE__RESPONSIVE======= */
-@media   (min-width: 768px) and (max-width: 1080px) {
+@media   (min-width: 768px) and (max-width: 1199px) {
 
 
 /* ===============SECTION-02======== */
@@ -530,8 +532,8 @@ height: 582px;
     background-image: url(Legal-img/Pricing\ Page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 1023px;
-    padding-top: 80px;
+    min-height: 1194px;
+    padding-top: 60px;
 }
 
 
@@ -545,13 +547,21 @@ height: 582px;
 
 .pricing-section {
     display: flex;
-    gap: 50px;
-    padding-top: 77px;
+    gap: 30px;
+    padding-top: 45px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-
+.pricing-card {
+    background-color: #FFFF;
+    padding: 22px 16px 22px 16px;
+    text-align: center;
+    box-shadow: 0px 4px 32px  rgb(234,234,236);
+    align-items: center;
+    border-top: 6px solid #7842E8;
+    border-radius: 24px;
+}
 
 
 /* SECTION===========-03 */
@@ -704,12 +714,10 @@ height: 582px;
     }
 
 
-    .pricing-card {
-        background-color: #FFFF;
-        padding: 30px 24px 30px 24px;
-     
-       
-    }
+  .pricing-card {
+    background-color: #FFFF;
+    padding: 15px 12px 15px 12px;
+}
 
     .hero-h1 {
         font-size: 29px;
@@ -764,15 +772,14 @@ height: 582px;
 .sect-3_cards {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
 }
 
 
 .heading-sect-03 {
-    padding-bottom: 36px;
- 
+    padding-bottom: 16px;
 }
 
 .sect-3_heading {
@@ -782,11 +789,18 @@ height: 582px;
 
 .Paragraph-16-R {
     font-size: 14px;
-   
-    padding-top: 16px;
+    padding-top: 6px;
+    text-align: center
+    
+    ;
 }
-
 /* ========SECTION-04======== */
+
+
+.section-04 {
+   
+    padding-top: 45px;
+}
 
 .section-04-content {
     display: flex;
@@ -802,9 +816,10 @@ height: 582px;
 
 .sect-04_heading p {
     font-size: 15px;
-    padding-bottom: 35px;
-    text-align: justify;
+    padding-bottom: 7px;
+    text-align: center;
 }
+
 
 
 .left-side-content {
@@ -814,6 +829,13 @@ height: 582px;
     
 }
 
+.img-secure img {
+    background-color: #ffff;
+    padding: 18px 18px;
+    border-radius: 50px;
+    box-shadow: 0 4px 52px rgb(226,225,225);
+    max-width: 100%;
+}
 
 .secure {
     display: flex;
@@ -839,29 +861,48 @@ height: 582px;
     padding-bottom: 15px;
 }
 
+.Award-text h5 {
+    padding-bottom: 3px;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    color: #2E2E32;
+    text-align: unset;
+}
 
+.secures-text h5 {
+    padding-bottom: 3px;
+    font-size: 18px;
+    
+}
+
+.Transition  h5 {
+    padding-bottom: 4px;
+    font-size: 18px;
+    
+}
 
 .Transition {
     display: flex;
-  position: unset;
-    gap: 30px;
+    position: unset;
+    gap: 15px;
 }
 .secures-text p {
     font-size: 14px;
-    text-align: justify;
- 
+    text-align: left;
 }
 
 .Transition p {
     font-size: 14px;
-    text-align: justify;
+    text-align: left;
      
 }
 
 
 .Award-text p {
     font-size: 14px;
-    text-align: justify;
+    text-align: left;
 }
 .Award {
     display: none;
