@@ -359,11 +359,164 @@ padding-top: 77px;
 }
 
 
+/* ============SECTION-04========= */
 
 
 
+.section-04 {
+ background-image: url(Legal-img/Frame\ 74202\ \(3\).jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 975px;
+ padding-top: 112px;
+}
 
 
+
+.sect-04_heading {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.sect-04_heading h2{
+    font-size: 42px;
+    line-height: 130%;
+    font-weight: 600;
+    color: #2E2E32;
+    padding-bottom: 16px;
+    font-family: "Outfit", sans-serif;
+}
+.sect-04_heading p{
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #919099;
+  
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 64px;
+
+}
+
+.left-side-content {
+    max-width: 556px;
+  
+    height: 450px;
+    background-image: url(Legal-img/Vector\ 329.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.section-04-content {
+    display: grid;    
+   grid-template-columns: repeat(2 , 1fr);
+   align-items: center;
+    
+   
+}
+
+.img-secure img {
+    background-color: #ffff;
+    padding: 18px 18px ;
+    border-radius: 50px;
+    box-shadow: 0 4px 52px rgb(226,225,225) ;
+}
+
+
+
+.secure {
+    display: flex;
+    gap: 30px;
+     
+}
+.secures-text h5 {
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    color: #2E2E32;
+}
+
+.secures-text p {
+    
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color: #919099;
+    max-width: 370px;
+}
+
+
+
+  .Award {
+    display: flex;
+    gap: 30px;
+    padding-top: 64px;
+    position: absolute;
+    right: 0;
+}
+
+
+.Award-text h5 {
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    color: #2E2E32;
+    text-align: right;
+}
+.Award-text p {
+     
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color: #919099;
+    text-align: right;
+    max-width: 370px;
+}
+
+.Award-winning {
+    display: none;
+}
+
+
+
+.Transition {
+    display: flex;
+    position: absolute;
+   bottom: 0;
+   gap: 30px;
+}
+
+.Transition  h5{
+    padding-bottom: 12px;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    color: #2E2E32;
+}
+.Transition p {
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    color: #919099;
+    
+     max-width: 370px;
+}
+
+ .right-side-sect-04 img {
+    max-width: 543px;
+height: 582px;
+
+ }
 
 
 
@@ -413,6 +566,73 @@ padding-top: 77px;
     gap: 29px;
     flex-wrap: wrap;
 }
+
+
+/* =======SECTION-04====== */
+
+.section-04 {
+    min-height: 789px;
+    padding-top: 80px;
+}
+
+
+
+
+.section-04-content {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.left-side-content {
+    background-image: none;
+    max-width: 412px;
+    height: 445px;
+}
+
+ 
+
+.Award {
+    display: none;
+}
+
+.Award-winning {
+    display: block;
+}
+
+.main-awrd {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.main-awrd  h5 {
+    text-align: unset;
+}
+.main-awrd  p{
+    text-align: unset;
+}
+
+
+
+.right-side-sect-04 img {
+    max-width: 383px;
+    height: 391px;
+}
+
+.secure {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.Transition {
+    display: flex;
+    position: unset;
+    
+    gap: 15px;
+}
+
 
 }
 
@@ -566,7 +786,94 @@ padding-top: 77px;
     padding-top: 16px;
 }
 
+/* ========SECTION-04======== */
 
+.section-04-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+.sect-04_heading h2 {
+    font-size: 28px;
+ 
+}
+
+.sect-04_heading p {
+    font-size: 15px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+
+
+.left-side-content {
+    max-width: 350px;
+    height: 450px;
+   background-image: none;
+    
+}
+
+
+.secure {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.Award-winning {
+   display: block;
+}
+
+.Award-winning  h5 {
+    text-align: unset;
+}
+.Award-winning  p {
+    text-align: unset;
+}
+
+
+.main-awrd {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+.Transition {
+    display: flex;
+  position: unset;
+    gap: 30px;
+}
+.secures-text p {
+    font-size: 14px;
+    text-align: justify;
+ 
+}
+
+.Transition p {
+    font-size: 14px;
+    text-align: justify;
+     
+}
+
+
+.Award-text p {
+    font-size: 14px;
+    text-align: justify;
+}
+.Award {
+    display: none;
+    
+}
+
+
+.right-side-sect-04 img {
+    max-width: 330px;
+    height: 313px;
+    padding-top: 24px;
+}
 
 }
 
