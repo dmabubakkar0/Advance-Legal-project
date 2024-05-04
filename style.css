@@ -640,7 +640,7 @@ html {
 .right-side-05 {
     min-width: 537px;
     height: 468px;
-    border: 1px solid red;
+   
     padding: 24px 24px;
 }
 
@@ -788,7 +788,7 @@ html {
     /* =======SECTION-04====== */
 
     .section-04 {
-        min-height: 789px;
+        min-height: 842px;
         padding-top: 80px;
     }
 
@@ -856,13 +856,61 @@ html {
 
     /* ========SECTION-05======== */
 
-
+    .billable-content {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        padding-bottom: 20px;
+    }
 .Billable-01 .secnd-billable {
     
         width: 192px;
    
 }
 .Billable-01 
+
+.third-billable {
+    max-width: 180px;
+}
+
+.spent img {
+    max-width: 250px;
+
+}
+
+.Rate img {
+    max-width: 250px;
+}
+
+.Legal-plan-bottom{
+    flex-wrap: wrap;
+}
+
+.sect-05-content {
+    display: flex;
+    gap: 10px;
+}
+
+.right-side-05 {
+    min-width: 320px;
+    height: 468px;
+    
+   padding: unset;
+}
+
+
+.right-side-heading h5 {
+    font-size: 16px;
+   
+    padding-bottom: 8px;
+}
+
+.right-side-heading h4 {
+    font-size: 37px;
+  
+    padding-bottom: 20px;
+}
+
 
 
 }
@@ -1140,7 +1188,99 @@ html {
         padding-top: 24px;
     }
 
+/* =========SECTION-05======== */
+
+.section-05 {
+    background-color: #F9F6FF;
+    min-height: 924px;
+    padding-top: 40px;
 }
+
+
+.sect-05_heading h2 {
+    font-size: 28px;
+   
+}
+.sect-05_heading p {
+    font-size: 14px;
+ 
+    padding-bottom: 13px;
+}
+
+.right-side-heading h4 {
+    font-size: 28px;
+   
+    padding-bottom: 12px;
+}
+.right-side-heading h5 {
+    font-size: 18px;
+    
+    padding-bottom: 16px;
+}
+
+
+.main-card-sct-5 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 29px;
+    gap: 13px;
+}
+
+
+
+.sect-05-content {
+    display: flex;
+    gap: unset;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+
+.billable-content {
+    display: flex;
+    align-items: unset;
+    gap:18px;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+
+ 
+
+.spent img {
+    padding-bottom: 32px;
+    max-width: 250px;
+}
+
+.Rate img {
+    max-width: 250px;
+}
+
+
+.Legal-plan-bottom {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.right-side-05 {
+    min-width: 349px;
+  
+    padding: 24px 24px;
+}
+
+.right-side-table-01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 16px;
+}
+
+}
+
+
 
 @media (min-width:120px) and (max-width:400px) {
     .sing-up {
