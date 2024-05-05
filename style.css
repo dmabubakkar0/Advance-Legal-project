@@ -733,7 +733,7 @@ html {
 
 .section-06 {
     padding-top: 122px;
-    min-height: 1174px;
+    min-height: 731px;
 }
 
  
@@ -764,8 +764,6 @@ html {
 }
 
  
-
-
 
 
 
@@ -954,7 +952,33 @@ html {
     padding-bottom: 20px;
 }
 
+/* ========SECTION-06======== */
 
+
+.section-06 {
+    padding-top: 80px;
+   
+}
+.faq-heading {
+   
+    
+    padding-bottom: 44px;
+}
+
+
+ 
+
+.FAQ-main-img {
+    max-width: 320px;
+}
+
+
+.FAQ_content {
+    display: flex;
+  align-items: unset;
+    gap: 45px;
+}
+ 
 
 }
 
@@ -1104,6 +1128,25 @@ html {
         padding-top: 6px;
         text-align: center;
     }
+
+
+
+    .sect-3-card {
+        width: 235px;
+        height: 272px;
+        text-align: center;
+        transition: .50s ease-in-out;
+        padding: 15px 10px;
+    }
+
+    .Landing_p {
+       
+        padding-top: 0px;
+    }
+
+
+
+
 
     /* ========SECTION-04======== */
 
@@ -1320,6 +1363,45 @@ html {
     justify-content: space-around;
     padding: 16px 16px;
 }
+/* ===========SECTION-06========== */
+
+.section-06 {
+    padding-top: 45px;
+    
+}
+
+
+.faq-heading  h2 {
+    font-size: 28px;
+  
+    padding-bottom: 12px;
+}
+
+
+.faq-heading  p {
+    font-size: 15px;
+  
+}
+
+.faq-heading {
+   
+    padding-bottom: 28px;
+}
+
+
+
+.FAQ_content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+
+.FAQ-main-img {
+    max-width: 280px;
+}
+
 
 }
 
@@ -1335,12 +1417,18 @@ html {
 
 /* =========FAQ======== */
  
+.container {
+    max-width: 1224px;
+}
 
- 
- 
+.FAQ_content{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
 
 .wrapper {
-  width: 60%;
+  width: 100%;
 }
  
  
@@ -1349,13 +1437,13 @@ html {
     color: #919099;
     font-size: 12px;
     line-height: 160%;
-    /* font-family: "Inter", sans-serif; */
-    /* font-weight: 600; */
+    
     padding: 20px 80px 20px 20px;
     position: relative;
     display: flex;
     align-items: center;
     cursor: pointer;
+    
 }
 .answer-p {
     font-size: 16px;
@@ -1367,11 +1455,12 @@ html {
 
 
 .question-h2 {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 160%;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     color:  #2E2E32;
+    
 }
 
 
@@ -1384,25 +1473,26 @@ html {
   right: 20px;
   transition: 0.2s;
    
-  border: 1px solid  #919099;
-  border-radius: 20px;
+  
 }
 
 .question.active::after {
   transform: rotate(45deg);
-  background-color: #7842E8;
-  border:none;
+ 
+  
 }
 
 .answercont {
   max-height: 0;
   overflow: hidden;
   transition: 0.3s;
+  
 }
 
 .answer {
   padding: 0 20px 20px;
   line-height: 1.5rem;
+
 }
 
 .question.active + .answercont {
@@ -1413,6 +1503,6 @@ html {
     font-size: 14px;
   }
   .wrapper {
-  width: 80%;
+  width: 100%;
 }
 }
